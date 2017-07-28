@@ -84,3 +84,8 @@ Once in the folder do this:
 </pre>
 
 <b>IMPORTANT INFO:</b> actually there are none, but i wanted to keep the structure. Hope you guys like this, if there are any problem slack is your friend. Byez.
+
+<h2>USEFUL LINKS</h2>
+three.js documentation: https://jeromeetienne.github.io/AR.js/three.js/
+a-frame documentation: https://aframe.io/docs/0.5.0/primitives/a-obj-model.html
+useful issue: https://github.com/jeromeetienne/AR.js/issues/61
