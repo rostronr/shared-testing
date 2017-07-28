@@ -7,11 +7,10 @@ On your machine create a folder called arventurer (or whatever really). inside o
 From that folder do these following commands:
 
 <pre>
-	git init
-	git clone URL_OF_REPOSITORY
+	git init .
+	git remote add origin URL_TO_REPOSITORY
+	git fetch origin
 	git checkout master
-	git pull
-	git fetch -a
 </pre>
 
 <b>IMPORTANT INFO:</b> Make sure you are on master before pulling, do a "git branch" to see what branch you are in.
