@@ -45,11 +45,27 @@ Once you're happy with your changes you need to merge it into dev, so it will sh
 
 <b>IMPORTANT INFO:</b> Make sure to be on a branch that is not dev while you change your code, or dev will end up full of conflicts!!
 
-<h2>4. Update the server with most recent code</h2>
+<h2>4. Connect into the server</h2>
 
-Once logged in into the server (i know is forward, but let's face it, sooner or later will happen) navigate to the folder where the code is (for instance, /var/www/vhost/dev.arventurers.org/shared-testing).
+Once generated an ssh key (if don't know how i'll walk you through it), just ssh into the server with the command
+
+<pre>ssh root@104.131.44.170</pre>
+
+This will ask you for a password if you set one up during the ssh key generation, otherwise will log you in automatically.
+
+<b>IMPORTANT INFO:</b> tutorial for ssh key auto generation: https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html . Once generate, send me an email with the public key generated at comm.campione@gmail.com .
+
+<h2>5. Update the server with most recent code</h2>
+
+Once in the server, navigate to /var/www/http/
+
+<pre>cd /var/www/http/</pre>
+
+check all the folders in there with "ls -la". Choose the folder you want to work on (will most likely be called as the repository) and navigate into it "cd FOLDERNAME".
+Once in the folder do this:
 
 <pre>
+	git branch (to make sure the folder is set on dev)
 	git pull
 </pre>
 
