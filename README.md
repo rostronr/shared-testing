@@ -1,4 +1,4 @@
-<h1>YO DWAG! READ THIS INSTRUCTIONS</h1>
+<h1>YO DAWG! READ THIS INSTRUCTIONS</h1>
 <h5>So we use the same procedures!</h5>
 
 <h2>1. Initiate repository</h2>
@@ -89,3 +89,5 @@ Once in the folder do this:
 three.js documentation: https://jeromeetienne.github.io/AR.js/three.js/
 a-frame documentation: https://aframe.io/docs/0.5.0/primitives/a-obj-model.html
 useful issue: https://github.com/jeromeetienne/AR.js/issues/61
+Setting up a scene documentation: https://aframe.io/docs/0.5.0/guides/building-a-basic-scene.html
+Setting up a 360 scene documentation: https://aframe.io/docs/0.5.0/guides/building-a-360-image-gallery.html
