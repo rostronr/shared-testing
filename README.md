@@ -89,3 +89,4 @@ Once in the folder do this:
 three.js documentation: https://jeromeetienne.github.io/AR.js/three.js/
 a-frame documentation: https://aframe.io/docs/0.5.0/primitives/a-obj-model.html
 useful issue: https://github.com/jeromeetienne/AR.js/issues/61
+Json Animation: https://stackoverflow.com/questions/41880500/aframe-animations-with-obj
