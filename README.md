@@ -89,4 +89,5 @@ Once in the folder do this:
 three.js documentation: https://jeromeetienne.github.io/AR.js/three.js/<br>
 a-frame documentation: https://aframe.io/docs/0.5.0/primitives/a-obj-model.html <br>
 useful issue: https://github.com/jeromeetienne/AR.js/issues/61 <br>
-FULL TUTORIAL!!!: http://www.creativebloq.com/how-to/how-to-code-an-augmented-reality-marker <br>
+FULL TUTORIAL!!!: http://www.creativebloq.com/how-to/how-to-code-an-augmented-realiy-marker <br>
+Json Animation: https://stackoverflow.com/questions/41880500/aframe-animations-with-obj<br>
