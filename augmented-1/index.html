@@ -4,15 +4,15 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam;'>
 		<a-assets>
-			<a-asset-item id="SD-obj" src="/shared-testing/augmented-1/model/SD.obj"></a-asset-item>
-			<a-asset-item id="SD-mtl" src="/shared-testing/augmented-1/model/SD.mtl"></a-asset-item>
+			<a-asset-item id="SD-obj" src="/shared-testing/augmented-1/model/ani-toy.obj"></a-asset-item>
+			<!--<a-asset-item id="SD-mtl" src="/shared-testing/augmented-1/model/SD.mtl"></a-asset-item>-->
 		</a-assets>
 
 		<!-- Using the asset management system. -->
-		<a-obj-model src="#SD-obj" mtl="#SD-mtl" scale="0.5 0.5 0.5"></a-obj-model>
+		<a-obj-model src="#SD-obj" scale="0.5 0.5 0.5"></a-obj-model> <!--mtl="#SD-mtl"-->
 
 		<!-- Defining the URL inline. Not recommended but may be more comfortable. -->
-		<a-obj-model src="/shared-testing/augmented-1/model/SD.obj" mtl="/shared-testing/augmented-1/model/SD.mtl" scale="0.5 0.5 0.5"></a-obj-model>
+		<a-obj-model src="/shared-testing/augmented-1/model/ani-toy.obj" scale="0.5 0.5 0.5"></a-obj-model> <!-- mtl="/shared-testing/augmented-1/model/SD.mtl" -->
 
 		<a-marker-camera preset='hiro'></a-marker-camera>
 	</a-scene>
