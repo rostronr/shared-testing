@@ -1,0 +1,19 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+<script src="/shared-testing/augmented-1/js/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded arjs='sourceType: webcam;'>
+		<a-assets>
+			<a-asset-item id="SD-obj" src="/shared-testing/augmented-1/model/hi_enrico.obj"></a-asset-item>
+			<a-asset-item id="SD-mtl" src="/shared-testing/augmented-1/model/hi_enrico.mtl"></a-asset-item>
+		</a-assets>
+
+		<!-- Using the asset management system. -->
+		<a-obj-model position='0 0.5 0' src="#SD-obj" mtl="#SD-mtl" scale="0.1 0.1 0.1"></a-obj-model>
+
+		<!-- Defining the URL inline. Not recommended but may be more comfortable. -->
+<!-- 		<a-obj-model position='0 0.5 0' src="/shared-testing/augmented-1/model/SD.obj" mtl="/shared-testing/augmented-1/model/SD.mtl" scale="0.1 0.1 0.1"></a-obj-model> -->
+
+		<a-marker-camera preset='hiro'></a-marker-camera>
+	</a-scene>
+</body>
